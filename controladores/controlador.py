@@ -4,9 +4,6 @@ from iu.interfaz_usuario import solicitar_campos
 
 
 def main():
-    opcion = -1
-    nombre_departamento = ''
-    limite_registros = 0
 
     while True:
         opcion = mostrar_menu()
