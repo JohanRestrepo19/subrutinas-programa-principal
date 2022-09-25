@@ -2,8 +2,12 @@ from pprint import pprint
 
 
 def mostrar_resultado(results):
-    pprint(results)
-    print(results.dtypes)
+    # for index, row in results.iterrows():
+    #     print(f'{row}\n')
+
+    print()
+    print(results.to_markdown())
+    # pprint(results.dtypes)
 
 
 def mostrar_menu():
